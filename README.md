@@ -77,16 +77,16 @@ The profit calculation uses an assumed 20% margin for demonstration purposes and
 
 ### 4. SQL Analysis
 
-Exported the cleaned dataset from Python and loaded it into MySQL for further analysis.
+Used MySQL to analyze e-commerce sales, product performance, customer profitability, and order trends.
 
-SQL queries were used to examine:
-
-- Total orders and net sales.
-- Sales by product and city.
-- Monthly sales performance.
-- Profit by product.
-- Payment mode distribution.
-- Cancelled orders and order status.
+Key Business Questions:
+- Identified top-selling products and top 3 products by category.
+- Analyzed top 10 most profitable customers and one-time buyers.
+- Evaluated city-wise sales and category-wise revenue contribution.
+- Compared payment modes by sales, order volume, and average order value.
+- Examined product profit margins and order status performance.
+- 
+SQL Concepts: Aggregations, CTEs, subqueries, window functions (DENSE_RANK(), SUM() OVER()), GROUP BY, HAVING, and NULLIF().
 
 ### 5. Power BI Dashboard
 
