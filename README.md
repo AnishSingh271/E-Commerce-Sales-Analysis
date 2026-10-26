@@ -85,7 +85,7 @@ Key Business Questions:
 - Evaluated city-wise sales and category-wise revenue contribution.
 - Compared payment modes by sales, order volume, and average order value.
 - Examined product profit margins and order status performance.
-- 
+
 SQL Concepts: Aggregations, CTEs, subqueries, window functions (DENSE_RANK(), SUM() OVER()), GROUP BY, HAVING, and NULLIF().
 
 ### 5. Power BI Dashboard
