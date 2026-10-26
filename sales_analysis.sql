@@ -7,7 +7,7 @@ GROUP BY product
 ORDER BY sales DESC;
 
 
--- How are monthly sales changing over time?
+-- Top 3 products by sales within each category
 WITH ranked_products AS (
     SELECT Category, Product, SUM(Net_Amount) AS total_sales,
         DENSE_RANK() OVER (PARTITION BY Category ORDER BY SUM(Net_Amount) DESC) AS product_rank
