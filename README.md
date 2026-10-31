@@ -131,9 +131,6 @@ The dashboard includes:
 ```text
 ecommerce-sales-analysis/
 │
-├── data/
-│   └── README.md
-│
 ├── notebooks/
 │   └── ecommerce_data_cleaning.ipynb
 │
